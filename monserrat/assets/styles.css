@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+/*define the basic settings for the page*/
+
+body {
+  font-family: montserrat,sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 14px;
+    color: #064640;
+    line-height: 22px;
+    background-color: #FFF;
+    margin: 0 auto; /*this will eliminate any white border around the browser frame*/
+
+}
+/* Style the header */
+
+header {
+  color: #FFF; /* This is the text color*/
+  background-color: #80c2b4; /* This is the box color*/
+  padding: 2%;
+  text-align: center;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 2%;
+}
+.name {
+  float: left;
+}
+.headshot {
+  float: right;
+  width: 25%;
+}
+.headshot img {
+  width: 200px;
+  border-radius: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*define the link styles*/
+a {
+  color:  #064640;
+}
+a:hover {
+  color:  #064640;
+}
+
+/*define the heading styles*/
+h1 {
+  font-weight: 300; /*setting a light version of the font quiet sans*/
+  font-style: normal;
+  font-size: 100px;
+  line-height: 44px;
+ }
+
+h2 { 
+  text-align: right;
+	font-weight: 300;
+  font-size: 70px;
+  color: #064640;
+  line-height: 120px;
+  border-bottom: 1px dotted #064640;
+
+}
+
+h3 { 
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 300;
+  text-align: center;
+  }
+
+/*you can apply styling to multiple elements by separating them with a comma*/
+h1, h2, h3, h4, h5, p {    
+  margin-bottom: 22px;
+}
+
+/*define the strong styles*/
+strong {
+	color:  #d8a61b;
+}
+/*define the unordered list styles*/
+ul {
+  color: #064640;
+}
+
+/*define the ordered list styles*/
+ol {
+  color: #064640;
+}
+
+
+/* define a style for section elements*/
+section {
+	/* border: 1px dotted #949599; border is set to show you the frames, you can delete*/
+
+}
+aside {
+	font-weight: 300; /*setting a light version of the font quiet sans*/
+  font-style: italic;
+  font-size: 16px;
+  line-height: 20px;
+  color: #064640;
+  padding: 2%;
+}
+/* using the clear property will cause the footer to drop to the bottom of the page*/
+footer {
+  background-color:  #80c2b4;
+  padding: 2%;
+
+}
+/* you can target a specific tag within another element*/
+footer p {
+  text-align: center;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #064640;
+}
