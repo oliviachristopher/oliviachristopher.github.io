@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat,sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 14px;
+    color: #064640;
+    line-height: 22px;
+    background-color: rgb(211, 248, 255);
+    margin: 0 auto; 
+
+}
+
+header {
+  color: #FFF; 
+  background-color: #80c2b4; 
+  padding: 2%;
+  text-align: center;
+}
+/* Create three equal columns that floats next to each other */
+.row {
+  width: 100%%;
+  margin-bottom: 150px;
+
+}
+.name {
+  float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color:  #064640;
+}
+a:hover {
+  color:  #064640;
+}
+
+h1 {
+  font-weight: 900; 
+  font-style: normal;
+  font-size: 100px;
+  line-height: 44px;
+ }
+
+ .tab {
+  margin-left: -60px;
+  margin-top: 0;
+  float: left;
+  padding-left: 1%;
+  width: 300px;
+  height: 5%;
+  background-color: rgb(248, 218, 118);
+  -ms-transform: rotate(-90deg); 
+  transform: rotate(-90deg); 
+ }
+h2 { 
+  text-align: center;
+	font-weight: 600;
+  font-size: 70px;
+  color: #ffffff;
+  line-height: 120px;
+ 
+
+}
+
+h3 { 
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 300;
+  text-align: center;
+  }
+
+
+h1, h2, h3, h4, h5, p {    
+  margin-bottom: 22px;
+}
+
+strong {
+	color:  #d8a61b;
+  font-size: 190%;
+  font-weight: 900;
+}
+
+ul {
+  color: #064640;
+}
+
+img{
+  width: 90%;
+ margin-top: -90%; 
+ margin-right: -20%;
+position: relative; 
+float: right;
+
+}
+
+ol {
+  color: #064640;
+}
+
+
+section {
+	/* border: 1px dotted #949599; border is set to show you the frames, you can delete*/
+
+}
+aside {
+  background-image: url(assets/colorblock.jpeg);
+  background-repeat: no-repeat;
+background-size: cover;
+	font-weight: 300; /*setting a light version of the font quiet sans*/
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 10%;
+  margin-bottom: 0;
+
+}
+/* using the clear property will cause the footer to drop to the bottom of the page*/
+footer {
+  background-color:  #80c2b4;
+  padding: 3%;
+ font-weight: 500 ;
+
+}
+/* you can target a specific tag within another element*/
+footer p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
